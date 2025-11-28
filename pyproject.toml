@@ -62,6 +62,7 @@ urls.download = "https://github.com/whiteprints-tests/test-gh-pypi-mit-or-apache
 urls.homepage = "https://github.com/whiteprints-tests/test-gh-pypi-mit-or-apache-2-0-macos-39"
 urls.integration = "https://github.com/whiteprints-tests/test-gh-pypi-mit-or-apache-2-0-macos-39/actions"
 urls.issues = "https://github.com/whiteprints-tests/test-gh-pypi-mit-or-apache-2-0-macos-39/issues"
+urls.pypi = "https://pypi.org/project/test-gh-pypi-mit-or-apache-2-0-macos-39"
 urls.repository = "https://github.com/whiteprints-tests/test-gh-pypi-mit-or-apache-2-0-macos-39"
 
 [dependency-groups]
