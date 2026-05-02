@@ -57,6 +57,12 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "icon_links": [
         {
+            "name": "PyPI",
+            "url": "https://pypi.org/project/test-gh-pypi-mit-or-apache-2-0-macos-39",
+            "icon": "fa-brands fa-python",
+            "type": "fontawesome",
+        },
+        {
             "name": "GitHub",
             "url": (
                 "https://github.com/"
@@ -103,4 +109,6 @@ myst_substitutions = {
 exclude_patterns = [
     "_autoapi_templates/**",
 ]
-linkcheck_ignore = []
+linkcheck_ignore = [
+    r"https://pypi\.org/project/.*",
+]
